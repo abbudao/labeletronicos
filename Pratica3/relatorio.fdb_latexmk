@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1504036491 "relatorio.tex" "relatorio.pdf" "relatorio" 1504036524
+["pdflatex"] 1504038359 "relatorio.tex" "relatorio.pdf" "relatorio" 1504038360
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1501615455 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1501615461 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1501615461 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -79,10 +79,10 @@
   "meiaonda.pdf" 1504010595 61638 66c77065bcc761d83639de6fb719936d ""
   "ondacompleta.pdf" 1504010595 67271 cdff5a360442823bcf3d28a7a04815e7 ""
   "ondacompletacapacitor.pdf" 1504010595 95973 d45bde36f849251ed5b663e06e9618eb ""
-  "relatorio.aux" 1504036491 4233 966991b18378185f6677edc4381dddea ""
-  "relatorio.tex" 1504036489 14491 95048062690277ee22cb023c6fa326e0 ""
+  "relatorio.aux" 1504038359 4233 966991b18378185f6677edc4381dddea ""
+  "relatorio.tex" 1504038358 14490 8b6040e17e9b6af5e51ae3b9366301dc ""
   "retificadorpico.pdf" 1504010595 72192 e8d859820d48a04942841dad31f3f20c ""
   (generated)
-  "relatorio.log"
   "relatorio.aux"
+  "relatorio.log"
   "relatorio.pdf"
