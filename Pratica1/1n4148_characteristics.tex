@@ -1,0 +1,20 @@
+\documentclass{standalone}
+\usepackage[portuguese]{babel}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\begin{document}
+\begin{tikzpicture}
+	\begin{axis}[
+    xlabel=Tens{\~a}o $V$,
+		ylabel=Corrente $mA$]
+	\addplot[color=blue] coordinates {
+(0.70,10)
+(0.62,1.87)
+(0.52,0.2)
+(0.42,0.04)
+(-2,0)
+	};
+	\end{axis}
+\end{tikzpicture}
+\end{document}

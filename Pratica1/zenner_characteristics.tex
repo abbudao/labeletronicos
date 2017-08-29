@@ -1,0 +1,33 @@
+\documentclass{standalone}
+\usepackage[portuguese]{babel}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.15}
+\begin{document}
+\begin{tikzpicture}
+	\begin{axis}[
+    xlabel=Tens{\~a}o $V$,
+		ylabel=Corrente $mA$]
+	\addplot[color=blue] coordinates {
+(0.79,11.3)
+(0.69,0.48)
+(0.43,0)
+(0.32,0)
+(0.22,0)
+(0,0)
+(-1.02,-0.01)
+(-1.57,-0.45)
+(-1.8,-1.16)
+(-1.95,-2.07)
+(-2.06,-2.97)
+(-2.14,-3.82)
+(-2.20,-4.87)
+(-2.26,-5.74)
+(-2.31,-6.81)
+(-2.35,-7.67)
+(-2.39,-8.62)
+(-2.43,-9.47)
+	};
+	\end{axis}
+\end{tikzpicture}
+\end{document}

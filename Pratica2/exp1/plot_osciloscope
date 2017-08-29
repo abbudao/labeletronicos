@@ -1,0 +1,4 @@
+function plot_osciloscope(x,y,z)
+spline1=spline(x,y)
+spline2=spline(x,z)
+plot(x,spline1,'-',x,spline2,'-.')

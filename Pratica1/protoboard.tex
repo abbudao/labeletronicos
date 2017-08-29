@@ -1,0 +1,13 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usepackage[american]{circuitikz}
+\begin{document}
+\begin{circuitikz}[scale=2]
+  \draw (0,2)
+  to [voltage source,v^<=$V_{cc}$](0,0);
+  \draw (0,2) 
+  to [R=$1k\Omega$] (2,2) 
+  to [Do] (2,0) 
+  to node[ground];
+\end{circuitikz}
+\end{document}

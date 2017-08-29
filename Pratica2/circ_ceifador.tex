@@ -1,0 +1,18 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usepackage[american]{circuitikz}
+\begin{document}
+\begin{circuitikz}[scale=2]
+  \draw (0,2)
+  to [voltage source,v_=$V_{1}$](0,0);
+  \draw (0,2) 
+  to [R=$1K$] (2,2) ;
+  \draw(2,2)
+  to [Do,label=1N4148] (2,1);
+  \draw(2,1)
+  to [voltage source,v_=$V_c$] (2,0);
+  \draw (2,0) to
+  node[ground] (0,0);
+  \node[label=$V_o$] at (2,2);
+\end{circuitikz}
+\end{document}

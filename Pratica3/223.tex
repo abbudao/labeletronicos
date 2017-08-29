@@ -1,0 +1,14 @@
+\documentclass{standalone}
+\usepackage[portuguese]{babel}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\pgfplotstableread[col sep=comma]{exp223.csv}{\pistonkinetics}
+\begin{document}
+\begin{tikzpicture}[scale=2]
+\begin{axis}[
+  xlabel=Tempo ($t$),ylabel=Tensao ($V$)]
+\addplot [cyan ,thick,smooth] table [x=dado1,y=dado2]{\pistonkinetics};
+\end{axis}
+\end{tikzpicture}
+\end{document}
