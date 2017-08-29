@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.9)  29 AUG 2017 09:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.15)  29 AUG 2017 16:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -351,23 +351,65 @@ Now handling font encoding U ...
    defining Unicode char U+2026 (decimal 8230)
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
-)) (/usr/share/texmf-dist/tex/latex/adjustbox/adjustbox.sty
-Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
-(/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-(/usr/share/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks16
-\XKV@tempa@toks=\toks17
-(/usr/share/texmf-dist/tex/generic/xkeyval/keyval.tex))
-\XKV@depth=\count88
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (/usr/share/texmf-dist/tex/latex/adjustbox/adjcalc.sty
-Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
-) (/usr/share/texmf-dist/tex/latex/adjustbox/trimclip.sty
-Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
-(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+)) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip43
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen104
+)) (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen105
+) (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen106
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks17
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks18
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -378,140 +420,62 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen104
-\Gin@req@width=\dimen105
-) (/usr/share/texmf-dist/tex/latex/collectbox/collectbox.sty
-Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box26
-)
-\tc@llx=\dimen106
-\tc@lly=\dimen107
-\tc@urx=\dimen108
-\tc@ury=\dimen109
-Package trimclip Info: Using driver 'tc-pdftex.def'.
-(/usr/share/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
-File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
-))
-\adjbox@Width=\dimen110
-\adjbox@Height=\dimen111
-\adjbox@Depth=\dimen112
-\adjbox@Totalheight=\dimen113
-(/usr/share/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
-Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count89
-) (/usr/share/texmf-dist/tex/latex/varwidth/varwidth.sty
-Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box27
-\sift@deathcycles=\count90
-\@vwid@loff=\dimen114
-\@vwid@roff=\dimen115
-)) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/11/05 v2.16a AMS math features
-\@mathmargin=\skip43
-For additional information on amsmath, use the `?' option.
-(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
-(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks18
-\ex@=\dimen116
-)) (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen117
-) (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
-)
-\inf@bad=\count91
-LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count92
-\leftroot@=\count93
-LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count94
-\DOTSCASE@=\count95
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box28
-\strutbox@=\box29
-\big@size=\dimen118
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count96
-\c@MaxMatrixCols=\count97
-\dotsspace@=\muskip10
-\c@parentequation=\count98
-\dspbrk@lvl=\count99
-\tag@help=\toks19
-\row@=\count100
-\column@=\count101
-\maxfields@=\count102
-\andhelp@=\toks20
-\eqnshift@=\dimen119
-\alignsep@=\dimen120
-\tagshift@=\dimen121
-\tagwidth@=\dimen122
-\totwidth@=\dimen123
-\lineht@=\dimen124
-\@envbody=\toks21
-\multlinegap=\skip44
-\multlinetaggap=\skip45
-\mathdisplay@stack=\toks22
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
 ) (/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen125
-\lightrulewidth=\dimen126
-\cmidrulewidth=\dimen127
-\belowrulesep=\dimen128
-\belowbottomsep=\dimen129
-\aboverulesep=\dimen130
-\abovetopsep=\dimen131
-\cmidrulesep=\dimen132
-\cmidrulekern=\dimen133
-\defaultaddspace=\dimen134
-\@cmidla=\count103
-\@cmidlb=\count104
-\@aboverulesep=\dimen135
-\@belowrulesep=\dimen136
-\@thisruleclass=\count105
-\@lastruleclass=\count106
-\@thisrulewidth=\dimen137
+\heavyrulewidth=\dimen115
+\lightrulewidth=\dimen116
+\cmidrulewidth=\dimen117
+\belowrulesep=\dimen118
+\belowbottomsep=\dimen119
+\aboverulesep=\dimen120
+\abovetopsep=\dimen121
+\cmidrulesep=\dimen122
+\cmidrulekern=\dimen123
+\defaultaddspace=\dimen124
+\@cmidla=\count100
+\@cmidlb=\count101
+\@aboverulesep=\dimen125
+\@belowrulesep=\dimen126
+\@thisruleclass=\count102
+\@lastruleclass=\count103
+\@thisrulewidth=\dimen127
 ) (/usr/share/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count107
-\float@exts=\toks23
-\float@box=\box30
-\@float@everytoks=\toks24
-\@floatcapt=\box31
+\c@float@type=\count104
+\float@exts=\toks22
+\float@box=\box28
+\@float@everytoks=\toks23
+\@floatcapt=\box29
 ) (./relatorio.aux)
 \openout1 = `relatorio.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count108
-\scratchdimen=\dimen138
-\scratchbox=\box32
-\nofMPsegments=\count109
-\nofMParguments=\count110
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count111
-\MPscratchDim=\dimen139
-\MPnumerator=\count112
-\makeMPintoPDFobject=\count113
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count105
+\scratchdimen=\dimen128
+\scratchbox=\box30
+\nofMPsegments=\count106
+\nofMParguments=\count107
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count108
+\MPscratchDim=\dimen129
+\MPnumerator=\count109
+\makeMPintoPDFobject=\count110
+\everyMPtoPDFconversion=\toks25
 ) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 (/usr/share/texmf-dist/tex/generic/oberdiek/infwarerr.sty
@@ -556,94 +520,94 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 <./blocotransformador.pdf, id=1, pagebox=cropbox, 397.90659pt x 122.19753pt>
 File: ./blocotransformador.pdf Graphic file (type pdf)
 <use ./blocotransformador.pdf>
-Package pdftex.def Info: ./blocotransformador.pdf  used on input line 21. on input line 21.
-Package pdftex.def Info: Requested size: 312.00119pt x 95.8227pt on input line 21.
+Package pdftex.def Info: ./blocotransformador.pdf  used on input line 20. on input line 20.
+Package pdftex.def Info: Requested size: 312.00119pt x 95.8227pt on input line 20.
 <./meiaonda.pdf, id=2, pagebox=cropbox, 318.73079pt x 189.5863pt>
 File: ./meiaonda.pdf Graphic file (type pdf)
 <use ./meiaonda.pdf>
-Package pdftex.def Info: ./meiaonda.pdf  used on input line 29. on input line 29.
-Package pdftex.def Info: Requested size: 312.00119pt x 185.5879pt on input line 29.
+Package pdftex.def Info: ./meiaonda.pdf  used on input line 28. on input line 28.
+Package pdftex.def Info: Requested size: 312.00119pt x 185.5879pt on input line 28.
 <./retificadorpico.pdf, id=3, pagebox=cropbox, 362.18211pt x 322.17365pt>
 File: ./retificadorpico.pdf Graphic file (type pdf)
 <use ./retificadorpico.pdf>
-Package pdftex.def Info: ./retificadorpico.pdf  used on input line 35. on input line 35.
-Package pdftex.def Info: Requested size: 272.99881pt x 242.85863pt on input line 35.
+Package pdftex.def Info: ./retificadorpico.pdf  used on input line 34. on input line 34.
+Package pdftex.def Info: Requested size: 272.99881pt x 242.85863pt on input line 34.
 [5
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./blocotransformador.pdf>]
 <./ondacompleta.pdf, id=23, pagebox=cropbox, 318.82011pt x 190.40736pt>
 File: ./ondacompleta.pdf Graphic file (type pdf)
 <use ./ondacompleta.pdf>
-Package pdftex.def Info: ./ondacompleta.pdf  used on input line 45. on input line 45.
-Package pdftex.def Info: Requested size: 312.00119pt x 186.33644pt on input line 45.
+Package pdftex.def Info: ./ondacompleta.pdf  used on input line 44. on input line 44.
+Package pdftex.def Info: Requested size: 312.00119pt x 186.33644pt on input line 44.
 
-Overfull \hbox (14.25691pt too wide) in paragraph at lines 42--49
+Overfull \hbox (14.25691pt too wide) in paragraph at lines 41--48
 []\OT1/cmr/m/n/12 Nota-se que di-fe-ren-te-mente do re-ti-fi-ca-dor de meia-onda n~ao ``des-perdi^^Xcamos''
  []
 
 <./ondacompletacapacitor.pdf, id=24, pagebox=cropbox, 310.55023pt x 114.78885pt>
 File: ./ondacompletacapacitor.pdf Graphic file (type pdf)
 <use ./ondacompletacapacitor.pdf>
-Package pdftex.def Info: ./ondacompletacapacitor.pdf  used on input line 52. on input line 52.
-Package pdftex.def Info: Requested size: 312.00119pt x 115.33153pt on input line 52.
+Package pdftex.def Info: ./ondacompletacapacitor.pdf  used on input line 51. on input line 51.
+Package pdftex.def Info: Requested size: 312.00119pt x 115.33153pt on input line 51.
 [6 <./meiaonda.pdf>] [7 <./retificadorpico.pdf> <./ondacompleta.pdf>]
 <221.pdf, id=64, pagebox=cropbox, 457.8706pt x 386.41765pt>
 File: 221.pdf Graphic file (type pdf)
 <use 221.pdf>
-Package pdftex.def Info: 221.pdf  used on input line 75. on input line 75.
-Package pdftex.def Info: Requested size: 312.00119pt x 263.32655pt on input line 75.
+Package pdftex.def Info: 221.pdf  used on input line 74. on input line 74.
+Package pdftex.def Info: Requested size: 312.00119pt x 263.32655pt on input line 74.
 <222.pdf, id=65, pagebox=cropbox, 457.8706pt x 386.41866pt>
 File: 222.pdf Graphic file (type pdf)
 <use 222.pdf>
-Package pdftex.def Info: 222.pdf  used on input line 82. on input line 82.
-Package pdftex.def Info: Requested size: 312.00119pt x 263.32724pt on input line 82.
+Package pdftex.def Info: 222.pdf  used on input line 81. on input line 81.
+Package pdftex.def Info: Requested size: 312.00119pt x 263.32724pt on input line 81.
 <223.pdf, id=66, pagebox=cropbox, 473.42572pt x 386.42166pt>
 File: 223.pdf Graphic file (type pdf)
 <use 223.pdf>
-Package pdftex.def Info: 223.pdf  used on input line 89. on input line 89.
-Package pdftex.def Info: Requested size: 312.00119pt x 254.6676pt on input line 89.
+Package pdftex.def Info: 223.pdf  used on input line 88. on input line 88.
+Package pdftex.def Info: Requested size: 312.00119pt x 254.6676pt on input line 88.
 <224.pdf, id=67, pagebox=cropbox, 457.86359pt x 386.42065pt>
 File: 224.pdf Graphic file (type pdf)
 <use 224.pdf>
-Package pdftex.def Info: 224.pdf  used on input line 95. on input line 95.
-Package pdftex.def Info: Requested size: 312.00119pt x 263.3286pt on input line 95.
+Package pdftex.def Info: 224.pdf  used on input line 94. on input line 94.
+Package pdftex.def Info: Requested size: 312.00119pt x 263.3286pt on input line 94.
 
-Overfull \hbox (1.455pt too wide) in paragraph at lines 100--101
+Overfull \hbox (1.455pt too wide) in paragraph at lines 99--100
 []\OT1/cmr/m/n/12 Com este mesmo cir-cuito, adicionou-se um ca-pa-ci-tor ele-trol^^S^^Ptico de $100\OML/cmm/m/it/12 ^^VF$\OT1/cmr/m/n/12 .
  []
 
 <226.pdf, id=68, pagebox=cropbox, 473.41869pt x 386.41765pt>
 File: 226.pdf Graphic file (type pdf)
 <use 226.pdf>
-Package pdftex.def Info: 226.pdf  used on input line 104. on input line 104.
-Package pdftex.def Info: Requested size: 312.00119pt x 254.66496pt on input line 104.
+Package pdftex.def Info: 226.pdf  used on input line 103. on input line 103.
+Package pdftex.def Info: Requested size: 312.00119pt x 254.66496pt on input line 103.
 <225.pdf, id=69, pagebox=cropbox, 473.41869pt x 386.42969pt>
 File: 225.pdf Graphic file (type pdf)
 <use 225.pdf>
-Package pdftex.def Info: 225.pdf  used on input line 111. on input line 111.
-Package pdftex.def Info: Requested size: 312.00119pt x 254.6729pt on input line 111.
+Package pdftex.def Info: 225.pdf  used on input line 110. on input line 110.
+Package pdftex.def Info: Requested size: 312.00119pt x 254.6729pt on input line 110.
 [8 <./ondacompletacapacitor.pdf>] [9 <./221.pdf>] [10 <./222.pdf>] [11 <./223.pdf>] [12 <./224.pdf>]
 Overfull \vbox (16.00449pt too high) has occurred while \output is active []
 
-[13 <./226.pdf> <./225.pdf>]
-Overfull \hbox (5.41176pt too wide) in paragraph at lines 159--164
+[13 <./226.pdf> <./225.pdf>] [14]
+Overfull \hbox (5.41176pt too wide) in paragraph at lines 168--173
  [][] 
  []
 
-[14] [15] [16] (./relatorio.aux) ) 
+[15] [16] [17] (./relatorio.aux) ) 
 Here is how much of TeX's memory you used:
- 3772 strings out of 492990
- 50366 string characters out of 6138689
- 126761 words of memory out of 5000000
- 7235 multiletter control sequences out of 15000+600000
+ 3046 strings out of 492990
+ 38798 string characters out of 6138688
+ 110875 words of memory out of 5000000
+ 6544 multiletter control sequences out of 15000+600000
  8915 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,9n,37p,1165b,276s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on relatorio.pdf (12 pages, 617254 bytes).
+ 41i,9n,25p,1164b,235s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on relatorio.pdf (13 pages, 627323 bytes).
 PDF statistics:
- 244 PDF objects out of 1000 (max. 8388607)
- 193 compressed objects within 2 object streams
+ 252 PDF objects out of 1000 (max. 8388607)
+ 199 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
