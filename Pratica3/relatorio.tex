@@ -1,7 +1,6 @@
 \documentclass[12pt,a4paper]{article} 
 \usepackage[portuguese]{babel}
 \usepackage[utf8]{inputenc}
-\usepackage{adjustbox}
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{booktabs}
@@ -23,7 +22,7 @@ A necessidade de retificadores surge de aplicações que requerem fontes de corr
   \label{fig:esquema_tensao}
 \end{figure}
 
-Os circuitos retificadores de meia-onda , que tem uma implementação possível mostrada pela Figura~1, permitem a passagem de apenas um dos semiciclos de tensão de entrada para a saída. Como a tensão na entrada é alternadca, o diodo permite a passagem do sinal, apenas quando estiver diretamente polarizado no semiciclo positivo. Quando estiver no semiciclo negativo, o diodo estará reversamente polarizado e não haverá tensão na saída. A Figura~\ref{fig:meiaonda} nos mostra o output de um circuito retificador de meia onda dado uma entrada senoidal. Neste gráfico, podemos observar que, como um diodo não-ideal tem queda tensão, existe um certo \emph{delay} na curva de output e que o pico do output é reduzido pela queda de tensão do diodo diretamente polarizado ($V_{D}$). Nota-se também que se este sinal é de pouco efeito prático, se for utilizado sem um filtro capacitivo, pois pode ser prejudicial aos componentes eletrônicos. A Figura~\ref{fig:retificadorpico} ilustra o funcionamento de um retificador de pico de meia onda, que nada mais é que um retificador de meia onda com um filtro capacitivo.
+Os circuitos retificadores de meia-onda , que tem uma implementação possível mostrada pela Figura~1, permitem a passagem de apenas um dos semiciclos de tensão de entrada para a saída. Como a tensão na entrada é alternada, o diodo permite a passagem do sinal, apenas quando estiver diretamente polarizado no semiciclo positivo. Quando estiver no semiciclo negativo, o diodo estará reversamente polarizado e não haverá tensão na saída. A Figura~\ref{fig:meiaonda} nos mostra o output de um circuito retificador de meia onda dado uma entrada senoidal. Neste gráfico, podemos observar que, como um diodo não-ideal tem queda tensão, existe um certo \emph{delay} na curva de output e que o pico do output é reduzido pela queda de tensão do diodo diretamente polarizado ($V_{D}$). Nota-se também que se este sinal é de pouco efeito prático, se for utilizado sem um filtro capacitivo, pois pode ser prejudicial aos componentes eletrônicos. A Figura~\ref{fig:retificadorpico} ilustra o funcionamento de um retificador de pico de meia onda, que nada mais é que um retificador de meia onda com um filtro capacitivo.
 \begin{figure}[htpb]
   \centering
   \includegraphics[width=0.8\linewidth]{./meiaonda.pdf}
@@ -60,14 +59,14 @@ No experimento de número 1 foi montado um retificado de meia onda conforme a Fi
   V_{Avg} =6.353 V\\
   V_{Min} = -0.437 V \\
   V_{Max}= 20.266 V\\
-  V_{CA} =
+  V_{CA} = 7.873 V
 \end{align*}
 Ao adicionarmos um capacitor, notamos que os valores se alteraram para:
 \begin{align*}
   V_{Avg} =18.995 V\\
   V_{Min} = 17.588 V \\
   V_{Max}= 20.322 V\\
-  V_{CA} =
+  V_{CA} = 868 mV
 \end{align*}
 O gráfico da Figura~\ref{fig:221} foi produzido através dos dados obtidos do osciloscópio com o circuito montado como na Figura~1.
 \begin{figure}[htpb]
@@ -121,12 +120,22 @@ Com a ajuda de um osciloscópio, calculou-se o fator de ondulação dos circuito
             \label{eq:ripple1}
   r=\frac{V_{rms}}{V_{dc}} 
 \end{align}
-Sendo que $V_{dc}$, para o retificador de meia onda, é dado por:
+Sendo que $V_{dc}$, para o retificador de meia onda sem filtro capacitivo, é dado por:
 \begin{align}
             \label{eq:meiaonda}
-   V_{dc}  =0.318 V_m 
+   V_{dc}  =0.318 V_{max}  \\ 
 \end{align}
-A Tabela~3 sumariza esta nova informação e o fator de onda obtido na Tabela~1. Esperávamos um valor para o fator de ripple de aproximadamente 121\% ($\frac{0.385V_{m}}{0.315V_{m}}$), observou-se valores suficientemente próximos. 
+E com filtro capacitivo:
+\begin{align}
+            \label{eq:meiaondacapacitor}
+   V_{dc}  \approx V_{max}  
+\end{align}
+Assim, calculamos os fatores de ondulação:
+\begin{align}
+  r= \frac{V_{ca} }{0.318 V_{max}}= \frac{7.873}{0.318 \times 20.266}= 1.2216 \\
+  r= \frac{V_{ca} }{V_{max}}= \frac{868\times10^{-3}}{20.266}= 0.0428\\
+\end{align}
+A Tabela~3 sumariza esta nova informação e o fator de onda obtido na Tabela~1. Esperávamos um valor para o fator de ripple do retificador de meia onda sem filtro capacitivo de aproximadamente 121\% ($\frac{0.385V_{max}}{0.315V_{max}}$). Observou-se valores suficientemente próximos a este. 
 
 \begin{table}[htpb]
             \centering
@@ -135,7 +144,7 @@ A Tabela~3 sumariza esta nova informação e o fator de onda obtido na Tabela~1.
               \toprule
               \multicolumn{2}{c }{Multímetro} & \multicolumn{2}{c}{Osciloscópio} \\ \cmidrule(r){1-2} \cmidrule(r){3-4}
             Sem Capacitor   & Com Capacitor  & Sem Capacitor   & Com Capacitor   \\ \cmidrule(r){1-1} \cmidrule(r){2-2} \cmidrule(r){3-3}\cmidrule(r){4-4} 
-            123\%        & 4.3\%         & 126.97\%        & 4.53\%          \\ \bottomrule
+            123\%        & 4.3\%         & 122.1\%        & 4.28\%          \\ \bottomrule
             \end{tabular}
         \end{table}
 
@@ -143,23 +152,23 @@ A Tabela~3 sumariza esta nova informação e o fator de onda obtido na Tabela~1.
 
  \begin{align}
    \label{eq:ondacompleta}
-   V_{dc}  =0.636 V_m  \\
+   V_{dc}  =0.636 V_{max}  \\
    \label{eq:ondacompletacapacitor}
-   V_{dc} \approx V_m 
+   V_{dc} \approx V_{max}
  \end{align}
 \begin{align}
-  r_1 = \frac{V_{rms}}{V_{dc}}= \frac{6.5 V}{11.63 \times 0.636 V}= 55.88\%\\
-  r_2= \frac{V_{rms}}{V_{dc}} \approx \frac{V_{rms}}{V_{m}} = \frac{411 mV}{19.22}= 0.021 \% \\
-  r_2= \frac{V_{rms}}{V_{dc}} \approx \frac{V_{rms}}{V_{m}} = \frac{164 mV}{19.48}= 0.008 \%
+  r_1 = \frac{V_{rms}}{V_{dc}}= \frac{6.5 V}{19.7 \times 0.636 V}= 51.87\%\\
+  r_2= \frac{V_{rms}}{V_{dc}} \approx \frac{V_{rms}}{V_{max}} = \frac{411 mV}{19.815}= 2.07 \% \\
+  r_2= \frac{V_{rms}}{V_{dc}} \approx \frac{V_{rms}}{V_{max}} = \frac{164 mV}{19.79}= 0.828 \%
 \end{align}
-O resultado é descrito na Tabela 4. Esperávamos valores de $r$ próximos a $48.7\%$ ($\frac{0.308 V_{m}}{0.636 V_{m}}$) para o retificador de meia onda sem capacitor.
+O resultado é descrito na Tabela 4. Esperávamos valores de $r$ próximos a $48.7\%$ ($\frac{0.308 V_{max}}{0.636 V_{max}}$) para o retificador de meia onda sem capacitor. Considerando o fator de ondulação como indicativo de qualidade, conclui-se que o retificador de meia onda é melhor com a presença de um filtro capacitivo, pois ambos valores foram significativamente menores que o valor sem filtro capacitivo. Da mesma forma, temos o indicativo que capacitores maiores tendem a nos dar fatores de ondulação melhores. Suspeita que sera confirmado no próximo experimento. 
     \begin{table}[htpb]
         \centering
         \caption{Fator de ondulação para o circuito retificador de onda completa.}
         \begin{tabular}{l c c c}
         \toprule
         & Sem capacitor & Capacitor $100 \mu F$ & Capacitor $220 \mu F$ \\ \midrule
-        \multicolumn{1}{c}{Fator de ondulação} & 55.88\%       &  0.021\%  &  0.008\%                \\ \bottomrule
+        \multicolumn{1}{c}{Fator de ondulação} & 51.87\%       &  2.07\%  &  0.828\%                \\ \bottomrule
         \end{tabular}
         \end{table}
 
@@ -173,4 +182,13 @@ Nota-se também, pela equação \ref{eq:ripple2}, o relacionamento entre o resis
             r = \frac{2.4}{R_L C}\times 100\%
         \end{align}        
 \newpage
-\subsection{Conclusão} \end{document}
+\subsection{Conclusão} 
+Esta prática possibilitou um estudo profundo a cerca de retificadores de tensão. Através de diodos e resistores somente, aprendemos configurações padrões para montar estes tipos de circuitos e muito a respeito do funcionamento esperado destes.
+
+Na primeira prática, estudamos o comportamento de um circuito retificador de meia onda e como a inclusão de um capacitor tem um impacto positivo em diminuir o ripple total do circuito.
+
+Estendendo a ideia anterior, o segundo experimento nos mostrou como podemos, a custo de mais complexidade no circuito, ter uma tensão média maior, retificando a onda tanto no seu semiciclo positivo e negativo, com o retificador de onda completa. Estudou-se também o impacto da variação da capacitância do filtro capacitivo no retificador, e conclui-se que altas capacitâncias ajudam na performance do retificador.
+
+Em uma breve comparação entre os circuitos retificadores, estudou-se um parâmetro, o fator de ondulação ($r$), que nos ajudou a avaliar a performance de cada retificador. Finalmente,   conclui-se que o circuito com maior performance foi o circuito retificador de onda completa com filtro de maior capacitância.
+
+\end{document}
