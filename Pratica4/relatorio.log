@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.9)  12 SEP 2017 00:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.9)  12 SEP 2017 09:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -484,11 +484,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box30
 \@float@everytoks=\toks24
 \@floatcapt=\box31
-) (./relatorio.aux
-
-LaTeX Warning: Label `tab:label' multiply defined.
-
-)
+) (./relatorio.aux)
 \openout1 = `relatorio.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -569,46 +565,59 @@ Package pdftex.def Info: breakdown_region.pdf  used on input line 31. on input l
 Package pdftex.def Info: Requested size: 234.00238pt x 247.30496pt on input line 31.
 [5
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./blocotransformador.pdf>]
-<./exp1/entrada_exp1.pdf, id=24, pagebox=cropbox, 473.41365pt x 386.42267pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./blocotransformador.pdf>] [6 <./breakdown_region.pdf>]
+<./exp1/entrada_exp1.pdf, id=40, pagebox=cropbox, 473.41365pt x 386.42267pt>
 File: ./exp1/entrada_exp1.pdf Graphic file (type pdf)
 <use ./exp1/entrada_exp1.pdf>
-Package pdftex.def Info: ./exp1/entrada_exp1.pdf  used on input line 57. on input line 57.
-Package pdftex.def Info: Requested size: 312.00119pt x 254.66827pt on input line 57.
-<./exp1/saida_exp1.pdf, id=25, pagebox=cropbox, 463.41331pt x 386.42467pt>
+Package pdftex.def Info: ./exp1/entrada_exp1.pdf  used on input line 60. on input line 60.
+Package pdftex.def Info: Requested size: 312.00119pt x 254.66827pt on input line 60.
+<./exp1/saida_exp1.pdf, id=41, pagebox=cropbox, 463.41331pt x 386.42467pt>
 File: ./exp1/saida_exp1.pdf Graphic file (type pdf)
 <use ./exp1/saida_exp1.pdf>
-Package pdftex.def Info: ./exp1/saida_exp1.pdf  used on input line 63. on input line 63.
-Package pdftex.def Info: Requested size: 312.00119pt x 260.165pt on input line 63.
-[6 <./breakdown_region.pdf>] [7 <./exp1/entrada_exp1.pdf> <./exp1/saida_exp1.pdf>]
-<./exp2/entrada_exp2.pdf, id=87, pagebox=cropbox, 457.85756pt x 386.42668pt>
+Package pdftex.def Info: ./exp1/saida_exp1.pdf  used on input line 66. on input line 66.
+Package pdftex.def Info: Requested size: 312.00119pt x 260.165pt on input line 66.
+[7 <./exp1/entrada_exp1.pdf>] [8 <./exp1/saida_exp1.pdf>]
+<./exp2/entrada_exp2.pdf, id=91, pagebox=cropbox, 457.85756pt x 386.42668pt>
 File: ./exp2/entrada_exp2.pdf Graphic file (type pdf)
 <use ./exp2/entrada_exp2.pdf>
-Package pdftex.def Info: ./exp2/entrada_exp2.pdf  used on input line 86. on input line 86.
-Package pdftex.def Info: Requested size: 312.00119pt x 263.33272pt on input line 86.
-<./exp2/saida_exp2.pdf, id=88, pagebox=cropbox, 463.41331pt x 386.41968pt>
+Package pdftex.def Info: ./exp2/entrada_exp2.pdf  used on input line 91. on input line 91.
+Package pdftex.def Info: Requested size: 312.00119pt x 263.33272pt on input line 91.
+<./exp2/saida_exp2.pdf, id=92, pagebox=cropbox, 463.41331pt x 386.41968pt>
 File: ./exp2/saida_exp2.pdf Graphic file (type pdf)
 <use ./exp2/saida_exp2.pdf>
-Package pdftex.def Info: ./exp2/saida_exp2.pdf  used on input line 92. on input line 92.
-Package pdftex.def Info: Requested size: 312.00119pt x 260.16164pt on input line 92.
-[8 <./exp2/entrada_exp2.pdf>] [9 <./exp2/saida_exp2.pdf>] [10] [11] (./relatorio.aux)
+Package pdftex.def Info: ./exp2/saida_exp2.pdf  used on input line 97. on input line 97.
+Package pdftex.def Info: Requested size: 312.00119pt x 260.16164pt on input line 97.
+[9 <./exp2/entrada_exp2.pdf>] [10 <./exp2/saida_exp2.pdf>]
+<1n4007.pdf, id=132, pagebox=cropbox, 495.24825pt x 97.25253pt>
+File: 1n4007.pdf Graphic file (type pdf)
+<use 1n4007.pdf>
+Package pdftex.def Info: 1n4007.pdf  used on input line 141. on input line 141.
+Package pdftex.def Info: Requested size: 390.0pt x 76.58824pt on input line 141.
 
-LaTeX Warning: There were multiply-defined labels.
+Overfull \hbox (5.86548pt too wide) in paragraph at lines 136--143
+[]\OT1/cmr/m/n/12 Para uma con-fi-gura^^Xc~ao em que se man-teve fixo $\OML/cmm/m/it/12 V[]$ \OT1/cmr/m/n/12 e $\OML/cmm/m/it/12 R[]$ \OT1/cmr/m/n/12 vari^^Savel, determinou-
+ []
 
- ) 
+[11 <./1n4007.pdf>]
+<7805.pdf, id=151, pagebox=cropbox, 460.6008pt x 278.36899pt>
+File: 7805.pdf Graphic file (type pdf)
+<use 7805.pdf>
+Package pdftex.def Info: 7805.pdf  used on input line 171. on input line 171.
+Package pdftex.def Info: Requested size: 390.0pt x 235.70152pt on input line 171.
+[12 <./7805.pdf>] [13] [14] (./relatorio.aux) ) 
 Here is how much of TeX's memory you used:
- 3737 strings out of 492990
- 49954 string characters out of 6138689
- 122715 words of memory out of 5000000
- 7203 multiletter control sequences out of 15000+600000
+ 3752 strings out of 492990
+ 50123 string characters out of 6138689
+ 123705 words of memory out of 5000000
+ 7216 multiletter control sequences out of 15000+600000
  8608 words of font info for 31 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,9n,37p,588b,276s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on relatorio.pdf (7 pages, 358846 bytes).
+ 41i,10n,37p,677b,280s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on relatorio.pdf (10 pages, 455308 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 134 compressed objects within 2 object streams
+ 214 PDF objects out of 1000 (max. 8388607)
+ 165 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
