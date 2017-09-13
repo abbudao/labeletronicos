@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1505221142 "relatorio.tex" "relatorio.pdf" "relatorio" 1505221142
+["pdflatex"] 1505304712 "relatorio.tex" "relatorio.pdf" "relatorio" 1505304712
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1501615455 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1501615461 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1501615461 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -88,8 +88,8 @@
   "exp1/saida_exp1.pdf" 1505184514 54820 1e411cab7b378c14cef1c03e65da812b ""
   "exp2/entrada_exp2.pdf" 1505184661 52413 c17dc504dc5be266208864c51ca32fd6 ""
   "exp2/saida_exp2.pdf" 1505184894 52526 4c9736eb38c36b2d793fe70b9284b129 ""
-  "relatorio.aux" 1505221142 2792 1c99547fbd756656a25ba6ce579ddb89 ""
-  "relatorio.tex" 1505221141 9890 876dd3df02400ad0a1dee25ccb3d4e33 ""
+  "relatorio.aux" 1505304712 2792 1c99547fbd756656a25ba6ce579ddb89 ""
+  "relatorio.tex" 1505304710 12358 3ef4047486d2db171ca60c4cf77caf8e ""
   (generated)
   "relatorio.pdf"
   "relatorio.log"

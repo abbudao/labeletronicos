@@ -177,10 +177,24 @@ Para o circuito do experimento 3, obteu-se a expressão de $V_o$ em função de 
   V_o= \frac{5}{R_1} \left(R_2 +R_1\right)\\\nonumber
   V_o= I_2 \left(R_2 +R_1\right)\nonumber
 \end{align}
-Para o valor mínimo do potenciômetro de $100\Omega$ calculou-se:
+Para o valor de $100\Omega$  da resistência $R_2$, representando a resistência variável do potenciômetro, em série com a resistência intrínsica fixa do potenciômetro calculou-se:
 \begin{align*}
   V_o = 0.01 \times \left( 100+470 \right)= 5.7 V
 \end{align*}
+Para o valor de $470\Omega$  da resistência $R_2$, representando a resistência variável do potenciômetro, em série com a resistência intrínsica fixa do potenciômetro calculou-se:
+\begin{align*}
+  V_o = 0.01 \times \left( 470+470 \right)= 9.4 V
+\end{align*}
+Para o valor de $820\Omega$  da resistência $R_2$, representando a resistência variável do potenciômetro, em série com a resistência intrínsica fixa do potenciômetro calculou-se:
+\begin{align*}
+  V_o = 0.01 \times \left( 820+470 \right)= 12.9 V
+\end{align*}
+
+No entanto, ao observarmos a Tabela~\ref{exp3} observamos uma divergência enorme entre a prática e a teoria. Isto é um indicador provável de uma falha na montagem do circuito. Especula-se que a dupla tenha substituído ambos os resistores, que representa o valor fixo do potenciômetro  e o valor variável, por um resistor equivalente, o que ocasionou no fracasso do experimento de número 3.
+
+Analisando a Tabela~\ref{exp4} podemos validar algumas expectativas teóricas advindas da teoria de uma fonte de corrente com regulador de tensão. Como descrito anteriormente, o datasheet nos informa que a tensão entre os pinos \emph{GND} e \emph{Output} se mantém constante em $5V$, desta forma, se variarmos o valor da resistência compreendida entre estes dois pinos, teremos uma fonte de corrente ajustável, regulada pelo valor da resistência empregada. Ao trocarmos uma resistência de $100\Omega$ por uma menor (praticamente metade) de $47\Omega$ fornecemos uma corrent a $R_l$ de quase duas vezes maior.
 
 \newpage
-\subsection{Conclusão} \end{document}
+\subsection{Conclusão}
+Neste experimento compreendeu-se o funcionamento de diversos circuitos reguladores de tensão e de uma configuração que permite construir uma fonte de corrente. Os experimentos 1 e 2 foi de extrema valia para entender melhor a teoria de funcionamento de um Diodo Zener e do circuito integrado $7805$ e a importância destes tipos de circuitos no fim do encadeamento de circuitos que compõe uma fonte de tensão $DC$. Foi possível comparar, a partir dos gráficos e dos valores coletados no osciloscópio, que o  $7805$ desempenha melhor a função de regulador de tensão em comparação com o diodo Zener.  Entendeu-se também, como utilizar configurações com um potenciômetro e um circuito integrado $7805$ para obter-se tensões e correntes variáveis através da mudança de resistência. 
+\end{document}
