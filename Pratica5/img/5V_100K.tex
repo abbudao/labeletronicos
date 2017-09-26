@@ -1,0 +1,15 @@
+\documentclass{standalone}
+\usepackage[portuguese]{babel}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\pgfplotstableread[col sep=comma]{./5V_100K.csv}{\pistonkinetics}
+\begin{document}
+\begin{tikzpicture}[scale=2]
+\begin{axis}[
+  xlabel=Tempo ($t$),ylabel=Tensao ($V$)]
+\addplot [blue,thick,smooth] table [x=segundo,y=dado1]{\pistonkinetics};
+\addplot [magenta,dashed,thick,smooth] table [x=segundo,y=dado2]{\pistonkinetics};
+\end{axis}
+\end{tikzpicture}
+\end{document}

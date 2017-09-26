@@ -1,0 +1,5 @@
+.mypy_cache/
+*.log
+*.fdb_latexmk
+*.fls
+*.aux
