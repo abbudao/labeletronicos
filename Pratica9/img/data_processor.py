@@ -15,7 +15,7 @@ latex_jinja_env = jinja2.Environment(
     autoescape=False,
     loader=jinja2.FileSystemLoader(os.path.abspath('.')))
 
-template = latex_jinja_env.get_template('graphic_template.tex')
+template = latex_jinja_env.get_template('./graphic_template_2_waves.tex')
 for file in os.listdir('.'):
     if(re.match('.+\.csv$',file)):
         tmp_file = template.render(filename=file)

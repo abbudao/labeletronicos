@@ -1,0 +1,24 @@
+\documentclass{standalone}
+\usepackage[portuguese]{babel}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\begin{document}
+  \begin{tikzpicture}
+    \begin{axis}[
+      xlabel=$V_{CE}$,
+      ylabel=$I_{C}$
+      ]
+      use TeX as calculator:
+
+
+      \addplot[color=blue] {0.01398*-x + 0.00722 };
+      \addplot[color=brown] {0.0068*-x + 0.008837 };
+      \addplot[color=magenta] {0*-x };
+      \addplot[color=red] {0*-x };
+
+    \end{axis}
+
+  \end{tikzpicture}
+
+\end{document}
