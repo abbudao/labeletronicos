@@ -1,0 +1,22 @@
+\documentclass{standalone}
+\usepackage[portuguese]{babel}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\begin{document}
+\begin{tikzpicture}[scale=2]
+  \begin{semilogxaxis}[xlabel=Frequência($Hz$),ylabel=Ganho($dB$)]
+    \addplot coordinates {
+      (1,4.46)
+      (10,7.5)
+      (100,29.31)
+      (1000, 36.32)
+      (10000,36.39)
+      (100000,36.29)
+      (1000000,36.23)
+      (5000000,33.09)
+      (10000000,29.63)
+    };
+  \end{semilogxaxis}
+\end{tikzpicture}
+\end{document}
